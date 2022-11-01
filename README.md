@@ -28,10 +28,10 @@ yarn dev
 ## Component
 
 - Danh sách Component mẫu sẽ được implement
-  - [Carousel]
-  - [Header]
-  - [Footer]
-  - [LogIn/LogOut]
+  - [Carousel](#)
+  - [Header](#)
+  - [Footer](#)
+  - [LogIn/LogOut](#)
 
 ## NextJS
 
