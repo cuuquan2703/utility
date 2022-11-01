@@ -1,8 +1,23 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+## About
 
-## Getting Started
+- Repos chứa ultility cho Hackathon
+- Sử dụng [NextJS](#nextjs) và [Tailwindcss](#tailwindcss)
+- Đã config xong ESlint và Tailwindcss
 
-First, run the development server:
+## How to use
+
+- Clone Repos
+- Tạo branch của mình
+
+```bash
+git branch <Name>
+git checkout <Name>
+
+```
+
+- Implement trên branch này và push lên github
+
+- Để chạy
 
 ```bash
 npm run dev
@@ -10,25 +25,32 @@ npm run dev
 yarn dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Component
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+- Danh sách Component mẫu sẽ được implement
+  - [Carousel]
+  - [Header]
+  - [Footer]
+  - [LogIn/LogOut]
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+## NextJS
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+- Tham khảo [Doc](#https://nextjs.org/docs/getting-started)
+- Là framework của ReactJS
+- Về cơ bản, cú pháp không khác react nhưng tổ chức file sẽ khác biệt
+- Sử dụng NextJS sẽ không phải đụng tới React Router => Giảm thời gian config
+- Mỗi folder trong `.\pages` là một entry point
+  VD: `.\pages\index.js` sẽ tương tự Entry point mặc định (Home page)
+  `.\pages\Login` tương tự khi vào `localhost/login` và component Login sẽ được define trong này
 
-## Learn More
+## Tailwindcss
 
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+- Tham khảo [Doc](#https://tailwindcss.com/docs/installation)
+- Là css engine
+- Thời gian render khá nhanh
+- Viết css tiện nên sẽ tiết kiệm thời gian viết css và tạo file css
+- Searching:
+  - `Ctr K`
+  - Thuộc tính css
+    VD: flex
+  - Nó sẽ hiện ra danh sách các thuộc tính và cách viết tương ứng trong taiwind
