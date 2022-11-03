@@ -32,6 +32,7 @@ yarn dev
   - [Header](#)
   - [Footer](#)
   - [LogIn/LogOut](#)
+  - [Card](./Components/Card)
 
 ## Hooks
 
@@ -43,7 +44,7 @@ yarn dev
 
 ## NextJS
 
-- Tham khảo [Doc](#https://nextjs.org/docs/getting-started)
+- Tham khảo [Doc](https://nextjs.org/docs/getting-started)
 - Là framework của ReactJS
 - Về cơ bản, cú pháp không khác react nhưng tổ chức file sẽ khác biệt
 - Sử dụng NextJS sẽ không phải đụng tới React Router => Giảm thời gian config
@@ -53,7 +54,7 @@ yarn dev
 
 ## Tailwindcss
 
-- Tham khảo [Doc](#https://tailwindcss.com/docs/installation)
+- Tham khảo [Doc](https://tailwindcss.com/docs/installation)
 - Là css engine
 - Thời gian render khá nhanh
 - Viết css tiện nên sẽ tiết kiệm thời gian viết css và tạo file css
